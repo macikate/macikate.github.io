@@ -1,0 +1,61 @@
+
+body {
+    position: relative;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    margin: 0;
+}
+
+li {
+    font-size: 13px;
+    font-style: italic;
+    font-weight: normal;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #606060;
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0;
+
+    background-color: pink;
+    padding: 0 5px;
+    border-bottom: 1px solid black;
+}
+
+.header img {
+    height: 92px;
+    width: 92px;
+}
+
+.mainbody {
+    padding-left: 20px;
+}
+
+.recipelistheading {
+    font-weight: bold;
+    font-style: normal;
+}
+
+.justify {
+    text-align: justify;
+}
+
+.footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
